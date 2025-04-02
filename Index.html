@@ -11,8 +11,19 @@
     <form action="www.example.com" method="Post">
         <fieldset>
             <legend>Registration form.</legend><br>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" placeholder="Write your name here."> <br>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Write your name here." required>
+                <label for="Surname">Surname:</label>
+                <Input type="text" id="surname" name="Surname" placeholder="Write your surname here." required>
+            </div><br>
+            <div>
+                <textarea
+                name="message" id="message" cols="50" rows="10" placeholder="Enter your message here." required>
+                </textarea><br>
+                <input type="submit" value="click to send" class="submit button">
+            </div>
+
         </fieldset>
     </form>
 </body>
