@@ -4,69 +4,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Prestigegroupautos.</title>
 </head>
 
 <body>
-    <form action="www.example.com" method="Post">
-        <fieldset>
-            <legend>Registration form.</legend><br>
+    <div>
+        <nav>
             <div>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" placeholder="Write your name here." required><br><br>
-                <label for="Surname">Surname:</label>
-                <Input type="text" id="surname" name="Surname" placeholder="Write your surname here." required>
-            </div><br><br>
-            <div>
-                <textarea
-                name="message" id="message" cols="50" rows="10" placeholder="Enter your message here." required>
-                </textarea><br><br>
-                <input type="submit" value="click to send" class="submit button">
-            </div><br><br>
-            <div>
-                <p>Gender</p>
-                <input type="radio" id="maschio" name="maschio" value="maschio">
-                <label for="maschio">Maschio</label><br>
-                <input type="radio" id="femmina" name="femmina" value="femmina">
-                <label for="femmina">Femmina</label>
-            </div><br><br>
-            <div>
-                <label for="privacy">I hereby consent for the management of my data, privacy & polcies as regards to this form</label>
-                <input type="checkbox" id="privacy" name="privacy" value="privacy" required><br>
-                <input type="submit" value="submit">
-            </div><br>
-            <div>
-                <label for="age range">Acceptable age range</label>
-                <input type="range" id="range" name="range" min="18" max="30">
-                <p>from 18 to 30 years of age.</p>
-                <label for="age">Age:</label>
-                <input type="month" id="age" name="age" required><br><br>
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" placeholder="Write e-mail here" required><br><br>
-                <label for="phone">Tel:</label>
-                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Phone number" required><br><br>
-                <label for="address">Address:</label>
-                <input type="address" id="address" name="address" required><br><br>
-                <label for="file">File</label>
-                <input type="file" id="file" name="file"><br><br>
-                <label for="work tools">Favoutite work tools.</label>
-                <select name="work tools" id="work tools" size="5">
-                    <option value="html">Html</option>
-                    <option value="javascript">Javascript</option>
-                    <option value="css">Css</option>
-                    <option value="react">React</option>
-                    <option value="sql">Sql</option>
-                </select>
-            </div><br>
                 <div>
-                    <label for="reminder"></label>
-                    <input type="datetime-local" id="reminder" name="reminder">
-                    <input type="button" value="press this buton">
+                    <a href="#">Products</a>
+                </div>
+                <div>
+                    <a href="#">Services</a>
+                </div>
+                <div>
+                    <a href="#">Our contacts</a>
+                </div>
+                <div>
+                    <a href="#">Search</a>
                 </div>
             </div>
-
-        </fieldset>
-    </form>
+        </nav>
+    </div>
+    <header>
+        <h1>Prestige Group autos.</h1>
+        <p>At prestige quality and durability is assured.</p>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h2>We are the best in car dealership.</h2>
+                <div>
+                    <div>We specialise in:</div>
+                    <ul>
+                        <li>Sport cars.</li>
+                        <figure>
+                            <img src="./assets/ferrari.jpg" alt="ferrari" width="450px">
+                            <figcaption>fig.1 - ferrari</figcaption>
+                        </figure>
+                        <li>Luxury Cars.</li>
+                        <img src="./assets/Rose royce.jpg" width="450px" srcset="./assets/Rose royce.jpg"
+                            alt="Rose royce" size="70vmin" />
+                        <li>Off road mountain climbers.</li>
+                        <img src="./assets/mountain climber.jpg" alt="mountain climber">
+                        <li>Your everyday regular car.</li>
+                        <img 
+                        src="./assets/chevrolet.jpg" alt="chevrolet" width="373px">
+                        <img src="./assets/Nissan.jpg" alt="nissan" width="450">
+                    </ul>
+                </div>
+                <p>Our offers are the best you can get in terms of car dealership and our services are top notch.</p>
+            </article>
+        </section><br><br>
+        <section>
+            <h2>Our services:</h2>
+            <dl>
+                <dt>Car delivery.</dt>
+                <dd>We offer global delivery.</dd>
+                <dt>Repairs and sells of your car spear parts.</dt>
+                <dd>Engines, interior and exterior.</dd>
+                <dt>Car inspection & services.</dt>
+                <dd>we are registered and licensed to issue every required certificates.</dd>
+            </dl>
+        </section>
+        <section>
+            <form action="www.prestigegroupautos.com" method="post">
+                <legend>Please fill in the form if you will like us to re-contact you.</legend><br>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Email address here." required>
+                <p>Indicate your gender</p>
+                <input type="radio" id="Male" name="male">
+                <label for="male">Male.</label><br>
+                <input type="radio" id="female" name="female">
+                <label for="female">Female.</label><br><br>
+                <label for="terms">Terms and conditions accepted.</label>
+                <input type="checkbox" id="terms" name="terms" required><br>
+                <label for="Privacy">Consent to privacy accepted.</label>
+                <input type="checkbox" id="privacy" name="privacy" required><br><br>
+                <input type="button" value="submit">
+            </form>
+        </section><br><br><br>
+        <aside>
+            <span>To be part of our car race game, register @</span>
+            <a href="www.prestigesport.com">Prestige game.</a>
+        </aside><br><br>
+    </main>
+    <footer>
+        <div>
+            <h4>Office address.</h4>
+            <p>We are located @ 4176 Brixton road block 17.</p>
+        </div>
+        <div>
+            <h4>Our social media handles are</h4>
+            <div>
+                <div>@twitter</div>
+                <div>prestigegroupautos</div>
+            </div>
+            <div>
+                <div>@instagram</div>
+                <div>prestigegroupautos</div>
+            </div>
+            <div>
+                <div>@facebook</div>
+                <div>prestigegroupautos</div>
+            </div>
+            <div>
+                <span>E-mail:</span>
+                <a href="googlemail.com">customercare@prestigegroupautos.com</a>
+                <p>Tel: 0478876901.</p>
+                <span>Website: www.prestigegroupautos.com</span>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
